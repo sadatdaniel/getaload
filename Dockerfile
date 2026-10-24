@@ -11,7 +11,7 @@ RUN CGO_ENABLED=0 GOARCH=$TARGETARCH GOARM=${TARGETVARIANT#v} go build -trimpath
     -ldflags "-s -w -X main.version=${VERSION}" -o /getaload ./cmd/getaload
 
 # Debian, not Alpine: the deno builds need glibc.
-FROM debian:trixie-slim@sha256:a29215f6a35e51e22adffa17f89e9d2ef06214e64a2bad10d765c46aea49f11f
+FROM debian:trixie-slim@sha256:62bd423aeee912639ca8ee681c2b762cb3e25137e0a92b20be455898a9f034ad
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates ffmpeg \
     && rm -rf /var/lib/apt/lists/* \
     && useradd --system --uid 1000 --home-dir /data --shell /usr/sbin/nologin getaload \
