@@ -7,7 +7,7 @@ require (
 	github.com/anacrolix/dht/v2 v2.24.0
 	github.com/anacrolix/torrent v1.61.0
 	github.com/caddyserver/certmagic v0.25.6
-	github.com/creativeprojects/go-selfupdate v1.6.0
+	github.com/creativeprojects/go-selfupdate v1.7.0
 	github.com/danielgtaylor/huma/v2 v2.39.1
 	github.com/knadh/koanf/parsers/yaml v1.1.1
 	github.com/knadh/koanf/providers/confmap v1.0.1
@@ -27,9 +27,10 @@ require (
 )
 
 require (
-	code.gitea.io/sdk/gitea v0.23.2 // indirect
+	code.gitea.io/sdk/gitea v0.25.1 // indirect
 	github.com/42wim/httpsig v1.2.4 // indirect
 	github.com/Masterminds/semver/v3 v3.5.0 // indirect
+	github.com/ProtonMail/go-crypto v1.5.2 // indirect
 	github.com/RoaringBitmap/roaring v1.2.3 // indirect
 	github.com/STARRY-S/zip v0.2.3 // indirect
 	github.com/alecthomas/atomic v0.1.0-alpha2 // indirect
@@ -58,6 +59,7 @@ require (
 	github.com/bradfitz/iter v0.0.0-20191230175014-e8f45d346db8 // indirect
 	github.com/caddyserver/zerossl v0.1.6 // indirect
 	github.com/cespare/xxhash v1.1.0 // indirect
+	github.com/cloudflare/circl v1.6.3 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/davidmz/go-pageant v1.0.2 // indirect
 	github.com/dsnet/compress v0.0.2-0.20230904184137-39efe44ab707 // indirect
@@ -126,7 +128,7 @@ require (
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
 	github.com/spf13/afero v1.15.0 // indirect
 	github.com/tidwall/btree v1.8.1 // indirect
-	github.com/ulikunitz/xz v0.5.15 // indirect
+	github.com/ulikunitz/xz v0.5.17 // indirect
 	github.com/wlynxg/anet v0.0.3 // indirect
 	github.com/zeebo/blake3 v0.2.4 // indirect
 	gitlab.com/gitlab-org/api/client-go v1.46.0 // indirect
@@ -138,14 +140,13 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.28.0 // indirect
 	go.uber.org/zap/exp v0.3.0 // indirect
-	go.yaml.in/yaml/v3 v3.0.4 // indirect
+	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	go4.org v0.0.0-20230225012048-214862532bf5 // indirect
 	golang.org/x/crypto v0.58.0 // indirect
 	golang.org/x/exp v0.0.0-20251113190631-e25ba8c21ef6 // indirect
 	golang.org/x/sync v0.24.0 // indirect
 	golang.org/x/sys v0.49.0 // indirect
 	golang.org/x/text v0.43.0 // indirect
-	gopkg.in/yaml.v3 v3.0.1 // indirect
 	lukechampine.com/blake3 v1.1.6 // indirect
 	modernc.org/libc v1.77.1 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
