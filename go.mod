@@ -8,7 +8,7 @@ require (
 	github.com/anacrolix/torrent v1.61.0
 	github.com/caddyserver/certmagic v0.25.6
 	github.com/creativeprojects/go-selfupdate v1.6.0
-	github.com/danielgtaylor/huma/v2 v2.39.1
+	github.com/danielgtaylor/huma/v2 v2.40.0
 	github.com/knadh/koanf/parsers/yaml v1.1.1
 	github.com/knadh/koanf/providers/confmap v1.0.1
 	github.com/knadh/koanf/providers/env v1.1.0
@@ -82,8 +82,8 @@ require (
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
 	github.com/huandu/xstrings v1.3.2 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
-	github.com/klauspost/compress v1.19.0 // indirect
-	github.com/klauspost/cpuid/v2 v2.4.0 // indirect
+	github.com/klauspost/compress v1.20.3 // indirect
+	github.com/klauspost/cpuid/v2 v2.4.1 // indirect
 	github.com/klauspost/pgzip v1.2.6 // indirect
 	github.com/knadh/koanf/maps v0.1.2 // indirect
 	github.com/libdns/libdns v1.1.1 // indirect
@@ -138,7 +138,7 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.28.0 // indirect
 	go.uber.org/zap/exp v0.3.0 // indirect
-	go.yaml.in/yaml/v3 v3.0.4 // indirect
+	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	go4.org v0.0.0-20230225012048-214862532bf5 // indirect
 	golang.org/x/crypto v0.58.0 // indirect
 	golang.org/x/exp v0.0.0-20251113190631-e25ba8c21ef6 // indirect
